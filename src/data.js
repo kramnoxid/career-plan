@@ -32,7 +32,7 @@ export const plans = {
         timeToEntry: "0–3 months",
         salaryRange: "£40k–£70k",
       },
-      {
+      /*{
         title: "Operations Manager",
         sector: "Retail / Logistics / Healthcare",
         summary:
@@ -41,7 +41,7 @@ export const plans = {
         considerations: "Often office or site-based; high accountability pressure.",
         timeToEntry: "0–6 months",
         salaryRange: "£45k–£75k",
-      },
+      },*/
     ],
   },
   b: {
