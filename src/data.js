@@ -58,14 +58,14 @@ export const plans = {
       "Roles that align more closely with personal values, working style, and strengths — without requiring a full reinvention.",
     options: [
       {
-        title: "UX Researcher",
-        sector: "Tech / Product",
+        title: "Vessel Traffic Services (VTS) Officer",
+        sector: "Spatial / Logistics / Emergency Management",
         summary:
-          "Investigate how people think, feel, and behave when interacting with products. Combines psychology, curiosity, and communication.",
-        whyIt: "Deeply meaningful work; you're the voice of the user. Suits analytical and empathetic thinkers.",
-        considerations: "Requires building a portfolio; may need a short course or bootcamp.",
-        timeToEntry: "3–9 months",
-        salaryRange: "£40k–£75k",
+          "A great opportunity has arisen to join Ports Victoria as a casual Vessel Traffic Services (VTS) Officer. The positions (x2) are located at the Port Operations Control Centre (Lorimer Street,           Port Melbourne). You will utilise modern technology to monitor, communicate and coordinate the day-to-day movement of vessels, whilst also providing a support function in emergency response arrangements..",
+        whyIt: "Karlie said they are looking for peoplle with excellent spatail awaremenss and love to learn.",
+        considerations: "How much stakehoolder management is there, and can seensory needs be met.",
+        timeToEntry: "3–9 months. next steps, ideally ask if I can shadow a shift to make sure it is a good fit - discuss with Karlie",
+        salaryRange: "unknown",
       },
       {
         title: "Freelance Consultant / Advisor",
