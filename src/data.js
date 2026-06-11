@@ -1,0 +1,139 @@
+export const plans = {
+  a: {
+    id: "a",
+    label: "Plan A",
+    title: "Business as Usual",
+    tagline: "Familiar paths, proven tracks",
+    color: "blue",
+    accent: "#3b82f6",
+    bg: "from-blue-50 to-slate-50",
+    border: "border-blue-200",
+    badge: "bg-blue-100 text-blue-700",
+    description:
+      "Conventional roles that leverage existing skills and experience. Lower risk, well-defined trajectories, and clear market demand.",
+    options: [
+      {
+        title: "Senior Project Manager",
+        sector: "Corporate / Consulting",
+        summary:
+          "Lead cross-functional teams to deliver complex projects on time and on budget. A natural evolution for anyone with coordination and stakeholder management experience.",
+        whyIt: "High demand, strong salaries, remote-friendly, transferable across industries.",
+        considerations: "Can feel process-heavy; success depends heavily on organisational culture.",
+        timeToEntry: "0–6 months",
+        salaryRange: "£50k–£85k",
+      },
+      {
+        title: "Business Analyst",
+        sector: "Tech / Finance / Public Sector",
+        summary:
+          "Bridge the gap between business needs and technical solutions. Involves requirements gathering, process mapping, and stakeholder communication.",
+        whyIt: "Broad applicability, good entry into tech without deep coding skills.",
+        considerations: "Role scope varies wildly — can be limiting in bureaucratic environments.",
+        timeToEntry: "0–3 months",
+        salaryRange: "£40k–£70k",
+      },
+      {
+        title: "Operations Manager",
+        sector: "Retail / Logistics / Healthcare",
+        summary:
+          "Oversee day-to-day operations, optimise processes, and manage teams to hit organisational goals.",
+        whyIt: "Consistent demand, clear progression path to Director level.",
+        considerations: "Often office or site-based; high accountability pressure.",
+        timeToEntry: "0–6 months",
+        salaryRange: "£45k–£75k",
+      },
+    ],
+  },
+  b: {
+    id: "b",
+    label: "Plan B",
+    title: "Aligned Options",
+    tagline: "Work that fits who you actually are",
+    color: "emerald",
+    accent: "#10b981",
+    bg: "from-emerald-50 to-teal-50",
+    border: "border-emerald-200",
+    badge: "bg-emerald-100 text-emerald-700",
+    description:
+      "Roles that align more closely with personal values, working style, and strengths — without requiring a full reinvention.",
+    options: [
+      {
+        title: "UX Researcher",
+        sector: "Tech / Product",
+        summary:
+          "Investigate how people think, feel, and behave when interacting with products. Combines psychology, curiosity, and communication.",
+        whyIt: "Deeply meaningful work; you're the voice of the user. Suits analytical and empathetic thinkers.",
+        considerations: "Requires building a portfolio; may need a short course or bootcamp.",
+        timeToEntry: "3–9 months",
+        salaryRange: "£40k–£75k",
+      },
+      {
+        title: "Freelance Consultant / Advisor",
+        sector: "Various",
+        summary:
+          "Offer specialist knowledge on a contract basis. Full autonomy over clients, hours, and focus areas.",
+        whyIt: "Maximum flexibility; ability to choose aligned organisations and causes.",
+        considerations: "Income variability, especially in early stages; requires self-promotion.",
+        timeToEntry: "1–6 months",
+        salaryRange: "£300–£800/day",
+      },
+      {
+        title: "Learning & Development Specialist",
+        sector: "Corporate / Education / Non-profit",
+        summary:
+          "Design and deliver training programmes that genuinely help people grow. Blends facilitation, curriculum design, and coaching.",
+        whyIt: "Directly impactful; suits people who enjoy teaching and seeing others develop.",
+        considerations: "Can be under-resourced in some organisations.",
+        timeToEntry: "3–6 months",
+        salaryRange: "£38k–£65k",
+      },
+    ],
+  },
+  c: {
+    id: "c",
+    label: "Plan C",
+    title: "Fully Unmasked",
+    tagline: "Built around you, not a job description",
+    color: "violet",
+    accent: "#8b5cf6",
+    bg: "from-violet-50 to-purple-50",
+    border: "border-violet-200",
+    badge: "bg-violet-100 text-violet-700",
+    description:
+      "Paths that prioritise authenticity, deep interest, and personal meaning over convention. May require more courage — but offer the greatest alignment.",
+    options: [
+      {
+        title: "Writer / Content Creator",
+        sector: "Independent / Media",
+        summary:
+          "Build an audience and income around your ideas, experiences, and perspective. Can span newsletters, books, podcasts, or video.",
+        whyIt: "Complete creative control; can evolve into speaking, consulting, or products.",
+        considerations: "Takes time to build; requires consistency and comfort with visibility.",
+        timeToEntry: "6–18 months to sustainability",
+        salaryRange: "Variable — £0 to £100k+",
+      },
+      {
+        title: "Neurodiversity Advocate / Coach",
+        sector: "Education / Healthcare / Corporate",
+        summary:
+          "Support neurodivergent individuals or organisations in understanding and embracing different ways of thinking and working.",
+        whyIt: "Highly meaningful; lived experience is a genuine asset rather than a liability.",
+        considerations: "Requires certification/training; emotionally demanding at times.",
+        timeToEntry: "6–12 months",
+        salaryRange: "£35k–£65k employed; higher self-employed",
+      },
+      {
+        title: "Solopreneur / Niche Business Owner",
+        sector: "Self-directed",
+        summary:
+          "Build something small, intentional, and entirely yours. Could be a product, service, or community around a specific passion or skill.",
+        whyIt: "Radical autonomy; work shaped entirely around your strengths and values.",
+        considerations: "Highest risk, highest reward. Requires financial runway and resilience.",
+        timeToEntry: "6–24 months",
+        salaryRange: "Variable — loss to £200k+",
+      },
+    ],
+  },
+};
+
+export const planOrder = ["a", "b", "c"];
