@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { ArrowLeft, Clock, Banknote, Lightbulb, AlertTriangle, Briefcase, ChevronRight } from "lucide-react";
+import { ArrowLeft, Clock, Banknote, Lightbulb, AlertTriangle, Briefcase, ChevronRight, ArrowRight } from "lucide-react";
 import { plans } from "../data";
 
 const colorConfig = {
@@ -123,6 +123,18 @@ function OptionCard({ option, plan }) {
             <p style={{ fontSize: "14px", fontWeight: 700, color: "#1e293b", margin: 0 }}>{option.timeToEntry}</p>
           </div>
         </div>
+        {option.nextSteps && <>
+          <div style={{ width: "1px", background: "#e2e8f0", alignSelf: "stretch" }} />
+          <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+            <div style={{ width: "36px", height: "36px", borderRadius: "50%", background: c.iconBg, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+              <ArrowRight size={16} style={{ color: c.iconColor }} />
+            </div>
+            <div>
+              <p style={{ fontSize: "10px", color: "#94a3b8", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em", margin: "0 0 2px" }}>Next steps</p>
+              <p style={{ fontSize: "14px", fontWeight: 700, color: "#1e293b", margin: 0 }}>{option.nextSteps}</p>
+            </div>
+          </div>
+        </>}
       </div>
 
       {/* Body */}

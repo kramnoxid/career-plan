@@ -21,6 +21,7 @@ export const plans = {
         considerations: "Can feel process-heavy; success depends heavily on organisational culture.",
         timeToEntry: "0–6 months",
         salaryRange: "£50k–£85k",
+        nextSteps: "Refresh CV, contact recruiters, review PM certifications",
       },
       {
         title: "Business Analyst",
@@ -31,6 +32,7 @@ export const plans = {
         considerations: "Role scope varies wildly — can be limiting in bureaucratic environments.",
         timeToEntry: "0–3 months",
         salaryRange: "£40k–£70k",
+        nextSteps: "Target job boards, tailor CV to sector, practice SQL basics",
       },
       /*{
         title: "Operations Manager",
@@ -41,6 +43,7 @@ export const plans = {
         considerations: "Often office or site-based; high accountability pressure.",
         timeToEntry: "0–6 months",
         salaryRange: "£45k–£75k",
+        nextSteps: "Network in target sector, highlight process improvement wins on CV",
       },*/
     ],
   },
@@ -61,11 +64,12 @@ export const plans = {
         title: "Vessel Traffic Services (VTS) Officer",
         sector: "Spatial / Logistics / Emergency Management",
         summary:
-          "A great opportunity has arisen to join Ports Victoria as a casual Vessel Traffic Services (VTS) Officer. The positions (x2) are located at the Port Operations Control Centre (Lorimer Street,           Port Melbourne). You will utilise modern technology to monitor, communicate and coordinate the day-to-day movement of vessels, whilst also providing a support function in emergency response arrangements..",
-        whyIt: "Karlie said they are looking for peoplle with excellent spatail awaremenss and love to learn.",
-        considerations: "How much stakehoolder management is there, and can seensory needs be met.",
-        timeToEntry: "3–9 months. next steps, ideally ask if I can shadow a shift to make sure it is a good fit - discuss with Karlie",
-        salaryRange: "unknown",
+          "A great opportunity has arisen to join Ports Victoria as a casual Vessel Traffic Services (VTS) Officer. The positions (x2) are located at the Port Operations Control Centre (Lorimer Street, Port Melbourne). You will utilise modern technology to monitor, communicate and coordinate the day-to-day movement of vessels, whilst also providing a support function in emergency response arrangements.",
+        whyIt: "Karlie said they are looking for peoplle with excellent spatail awaremenss and love to learn. Is in an interest area. Is a casual role.",
+        considerations: "How much stakehoolder management is there, and can seensory needs be met. Is the communication of vessels verbal / in person or is it mostly tech based.",
+        timeToEntry: "3–9 months",
+        salaryRange: "Unknown",
+        nextSteps: "Ideally ask if I can shadow a shift to make sure it is a good fit - discuss with Karlie",
       },
       {
         title: "Freelance Consultant / Advisor",
@@ -76,6 +80,7 @@ export const plans = {
         considerations: "Income variability, especially in early stages; requires self-promotion.",
         timeToEntry: "1–6 months",
         salaryRange: "£300–£800/day",
+        nextSteps: "Define niche, build LinkedIn presence, land first 2–3 clients",
       },
       {
         title: "Learning & Development Specialist",
@@ -86,6 +91,7 @@ export const plans = {
         considerations: "Can be under-resourced in some organisations.",
         timeToEntry: "3–6 months",
         salaryRange: "£38k–£65k",
+        nextSteps: "Look at CIPD qualifications, volunteer to run internal training",
       },
     ],
   },
@@ -111,6 +117,7 @@ export const plans = {
         considerations: "Takes time to build; requires consistency and comfort with visibility.",
         timeToEntry: "6–18 months to sustainability",
         salaryRange: "Variable — £0 to £100k+",
+        nextSteps: "Start writing publicly, pick one platform, publish consistently",
       },
       {
         title: "Neurodiversity Advocate / Coach",
@@ -121,6 +128,7 @@ export const plans = {
         considerations: "Requires certification/training; emotionally demanding at times.",
         timeToEntry: "6–12 months",
         salaryRange: "£35k–£65k employed; higher self-employed",
+        nextSteps: "Research coaching certifications, connect with neurodiversity orgs",
       },
       {
         title: "Solopreneur / Niche Business Owner",
@@ -131,6 +139,7 @@ export const plans = {
         considerations: "Highest risk, highest reward. Requires financial runway and resilience.",
         timeToEntry: "6–24 months",
         salaryRange: "Variable — loss to £200k+",
+        nextSteps: "Validate idea with 10 people, build an audience before building a product",
       },
     ],
   },
