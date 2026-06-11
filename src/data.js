@@ -3,7 +3,7 @@ export const plans = {
     id: "a",
     label: "Plan A",
     title: "Business as Usual",
-    tagline: "Familiar paths, proven tracks",
+    tagline: "Familiar paths, proven tracks to burnout and poor health.",
     color: "blue",
     accent: "#3b82f6",
     bg: "from-blue-50 to-slate-50",
