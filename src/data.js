@@ -72,15 +72,13 @@ export const plans = {
         nextSteps: "Ideally ask if I can shadow a shift to make sure it is a good fit - discuss with Karlie",
       },
       {
-        title: "Freelance Consultant / Advisor",
-        sector: "Various",
-        summary:
-          "Offer specialist knowledge on a contract basis. Full autonomy over clients, hours, and focus areas.",
-        whyIt: "Maximum flexibility; ability to choose aligned organisations and causes.",
-        considerations: "Income variability, especially in early stages; requires self-promotion.",
-        timeToEntry: "1–6 months",
-        salaryRange: "£300–£800/day",
-        nextSteps: "Define niche, build LinkedIn presence, land first 2–3 clients",
+        title: "GIS / Geospatial Analyst",
+        sector: "Spatial / Environment / Government",
+        summary: "Details to come.",
+        whyIt: "Details to come.",
+        considerations: "Details to come.",
+        timeToEntry: "TBC",
+        salaryRange: "TBC",
       },
       {
         title: "Learning & Development Specialist",
