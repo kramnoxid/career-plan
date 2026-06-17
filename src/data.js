@@ -9,38 +9,14 @@ export const plans = {
     description: "",
     options: [
       {
-        title: "Senior Project Manager",
-        sector: "Corporate / Consulting",
-        summary:
-          "Lead cross-functional teams to deliver complex projects on time and on budget. A natural evolution for anyone with coordination and stakeholder management experience.",
-        whyIt: "High demand, strong salaries, remote-friendly, transferable across industries.",
-        considerations: "Can feel process-heavy; success depends heavily on organisational culture.",
-        timeToEntry: "0–6 months",
-        salaryRange: "£50k–£85k",
-        nextSteps: "Refresh CV, contact recruiters, review PM certifications",
+        title: "Environmental Water Sampler",
+        sector: "Environment / Science / Fieldwork",
+        summary: "Details to come.",
+        whyIt: "Details to come.",
+        considerations: "Details to come.",
+        timeToEntry: "TBC",
+        salaryRange: "TBC",
       },
-      {
-        title: "Business Analyst",
-        sector: "Tech / Finance / Public Sector",
-        summary:
-          "Bridge the gap between business needs and technical solutions. Involves requirements gathering, process mapping, and stakeholder communication.",
-        whyIt: "Broad applicability, good entry into tech without deep coding skills.",
-        considerations: "Role scope varies wildly — can be limiting in bureaucratic environments.",
-        timeToEntry: "0–3 months",
-        salaryRange: "£40k–£70k",
-        nextSteps: "Target job boards, tailor CV to sector, practice SQL basics",
-      },
-      /*{
-        title: "Operations Manager",
-        sector: "Retail / Logistics / Healthcare",
-        summary:
-          "Oversee day-to-day operations, optimise processes, and manage teams to hit organisational goals.",
-        whyIt: "Consistent demand, clear progression path to Director level.",
-        considerations: "Often office or site-based; high accountability pressure.",
-        timeToEntry: "0–6 months",
-        salaryRange: "£45k–£75k",
-        nextSteps: "Network in target sector, highlight process improvement wins on CV",
-      },*/
     ],
   },
   b: {
@@ -86,15 +62,6 @@ export const plans = {
       {
         title: "Autistic Tour Guide",
         sector: "Tourism / Education / Culture",
-        summary: "Details to come.",
-        whyIt: "Details to come.",
-        considerations: "Details to come.",
-        timeToEntry: "TBC",
-        salaryRange: "TBC",
-      },
-      {
-        title: "Environmental Water Sampler",
-        sector: "Environment / Science / Fieldwork",
         summary: "Details to come.",
         whyIt: "Details to come.",
         considerations: "Details to come.",
