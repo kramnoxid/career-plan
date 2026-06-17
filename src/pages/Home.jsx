@@ -159,6 +159,7 @@ export default function Home() {
             margin: 0,
             lineHeight: 1.05,
             letterSpacing: "-3px",
+            paddingBottom: "0.15em",
             background: "linear-gradient(135deg, #064e3b 0%, #10b981 100%)",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
