@@ -1,6 +1,6 @@
 import { plans, planOrder } from "../data";
 import { Link } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ChevronRight } from "lucide-react";
 
 const colorConfig = {
   blue: {
@@ -11,6 +11,8 @@ const colorConfig = {
     dotColor: "#93c5fd",
     arrowColor: "#3b82f6",
     borderHover: "#93c5fd",
+    jobBullet: "#3b82f6",
+    jobHoverBg: "#eff6ff",
   },
   emerald: {
     gradientBar: "linear-gradient(135deg, #10b981, #059669)",
@@ -20,6 +22,8 @@ const colorConfig = {
     dotColor: "#6ee7b7",
     arrowColor: "#10b981",
     borderHover: "#6ee7b7",
+    jobBullet: "#10b981",
+    jobHoverBg: "#f0fdf4",
   },
   violet: {
     gradientBar: "linear-gradient(135deg, #8b5cf6, #7c3aed)",
@@ -29,18 +33,17 @@ const colorConfig = {
     dotColor: "#c4b5fd",
     arrowColor: "#8b5cf6",
     borderHover: "#c4b5fd",
+    jobBullet: "#8b5cf6",
+    jobHoverBg: "#faf5ff",
   },
 };
 
 function PlanCard({ plan }) {
   const c = colorConfig[plan.color];
+  const activeOptions = plan.options.filter(o => !o._hidden);
 
   return (
-    <Link
-      to={`/plan/${plan.id}`}
-      style={{ textDecoration: "none" }}
-      className="group block"
-    >
+    <Link to={`/plan/${plan.id}`} style={{ textDecoration: "none" }} className="group block">
       <div
         style={{
           background: "white",
@@ -66,9 +69,9 @@ function PlanCard({ plan }) {
         {/* Gradient top bar */}
         <div style={{ height: "6px", background: c.gradientBar }} />
 
-        <div style={{ padding: "32px", display: "flex", flexDirection: "column", flex: 1 }}>
+        <div style={{ padding: "28px 28px 24px", display: "flex", flexDirection: "column", flex: 1 }}>
           {/* Badge + arrow */}
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px" }}>
             <span style={{
               background: c.badgeBg,
               color: c.badgeText,
@@ -81,37 +84,57 @@ function PlanCard({ plan }) {
             }}>
               {plan.label}
             </span>
-            <ArrowRight size={18} style={{ color: c.arrowColor, opacity: 0.5, transition: "opacity 0.2s" }} />
+            <ArrowRight size={18} style={{ color: c.arrowColor, opacity: 0.5 }} />
           </div>
 
           {/* Title */}
-          <h2 style={{ fontSize: "22px", fontWeight: 800, color: "#0f172a", margin: "0 0 6px", lineHeight: 1.2 }}>
+          <h2 style={{ fontSize: "20px", fontWeight: 800, color: "#0f172a", margin: "0 0 6px", lineHeight: 1.25 }}>
             {plan.title}
           </h2>
-          <p style={{ fontSize: "14px", fontWeight: 600, color: c.taglineColor, margin: "0 0 16px" }}>
+
+          {/* Tagline in accent colour */}
+          <p style={{ fontSize: "13px", fontWeight: 600, color: c.taglineColor, margin: "0 0 20px", lineHeight: 1.5 }}>
             {plan.tagline}
           </p>
-          <p style={{ fontSize: "14px", color: "#64748b", lineHeight: 1.7, flex: 1, margin: 0 }}>
-            {plan.description}
-          </p>
+
+          {/* Job list */}
+          <div style={{ display: "flex", flexDirection: "column", gap: "6px", flex: 1 }}>
+            {activeOptions.map((opt, i) => (
+              <div key={i} style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "10px",
+                padding: "8px 10px",
+                borderRadius: "10px",
+                transition: "background 0.15s",
+              }}>
+                <div style={{
+                  width: "6px",
+                  height: "6px",
+                  borderRadius: "50%",
+                  background: c.jobBullet,
+                  flexShrink: 0,
+                  opacity: 0.7,
+                }} />
+                <span style={{ fontSize: "13px", color: "#374151", fontWeight: 500 }}>
+                  {opt.title}
+                </span>
+              </div>
+            ))}
+          </div>
 
           {/* Footer */}
           <div style={{
-            marginTop: "28px",
-            paddingTop: "20px",
+            marginTop: "20px",
+            paddingTop: "16px",
             borderTop: "1px solid #f1f5f9",
             display: "flex",
-            justifyContent: "space-between",
             alignItems: "center",
+            justifyContent: "flex-end",
+            gap: "4px",
           }}>
-            <span style={{ fontSize: "12px", color: "#94a3b8" }}>
-              {plan.options.length} options
-            </span>
-            <div style={{ display: "flex", gap: "6px" }}>
-              {plan.options.map((_, i) => (
-                <div key={i} style={{ width: "8px", height: "8px", borderRadius: "50%", background: c.dotColor }} />
-              ))}
-            </div>
+            <span style={{ fontSize: "12px", color: c.taglineColor, fontWeight: 600 }}>Explore all options</span>
+            <ChevronRight size={13} style={{ color: c.taglineColor }} />
           </div>
         </div>
       </div>

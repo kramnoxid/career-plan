@@ -2,15 +2,11 @@ export const plans = {
   a: {
     id: "a",
     label: "Plan A",
-    title: "Business as Usual",
-    tagline: "Familiar paths, proven tracks to burnout and poor health.",
+    title: "High Masking Neurotypical Jobs",
+    tagline: "Some suitable fundamental attributes but no disclosure and low accommodation potential.",
     color: "blue",
     accent: "#3b82f6",
-    bg: "from-blue-50 to-slate-50",
-    border: "border-blue-200",
-    badge: "bg-blue-100 text-blue-700",
-    description:
-      "Conventional roles that leverage existing skills and experience. Lower risk, well-defined trajectories, and clear market demand.",
+    description: "",
     options: [
       {
         title: "Senior Project Manager",
@@ -50,15 +46,11 @@ export const plans = {
   b: {
     id: "b",
     label: "Plan B",
-    title: "Aligned Options",
-    tagline: "Work that fits who you actually are",
+    title: "Low Masking Neurotypical Jobs",
+    tagline: "Jobs fit needs well, good accommodation potential, possible disclosure.",
     color: "emerald",
     accent: "#10b981",
-    bg: "from-emerald-50 to-teal-50",
-    border: "border-emerald-200",
-    badge: "bg-emerald-100 text-emerald-700",
-    description:
-      "Roles that align more closely with personal values, working style, and strengths — without requiring a full reinvention.",
+    description: "",
     options: [
       {
         title: "Vessel Traffic Services (VTS) Officer",
@@ -123,26 +115,20 @@ export const plans = {
   c: {
     id: "c",
     label: "Plan C",
-    title: "Fully Unmasked",
-    tagline: "Built around you, not a job description",
+    title: "Unmasked Neurodiverse Jobs",
+    tagline: "Full disclosure, primarily unmasked, high autonomy.",
     color: "violet",
     accent: "#8b5cf6",
-    bg: "from-violet-50 to-purple-50",
-    border: "border-violet-200",
-    badge: "bg-violet-100 text-violet-700",
-    description:
-      "Paths that prioritise authenticity, deep interest, and personal meaning over convention. May require more courage — but offer the greatest alignment.",
+    description: "",
     options: [
       {
-        title: "Writer / Content Creator",
-        sector: "Independent / Media",
-        summary:
-          "Build an audience and income around your ideas, experiences, and perspective. Can span newsletters, books, podcasts, or video.",
-        whyIt: "Complete creative control; can evolve into speaking, consulting, or products.",
-        considerations: "Takes time to build; requires consistency and comfort with visibility.",
-        timeToEntry: "6–18 months to sustainability",
-        salaryRange: "Variable — £0 to £100k+",
-        nextSteps: "Start writing publicly, pick one platform, publish consistently",
+        title: "Neurokindred Facilitator",
+        sector: "Community / Neurodiversity / Education",
+        summary: "Details to come.",
+        whyIt: "Details to come.",
+        considerations: "Details to come.",
+        timeToEntry: "TBC",
+        salaryRange: "TBC",
       },
       {
         title: "Neurodiversity Advocate / Coach",
