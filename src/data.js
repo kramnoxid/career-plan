@@ -49,17 +49,6 @@ export const plans = {
         salaryRange: "TBC",
       },
       {
-        title: "Learning & Development Specialist",
-        sector: "Corporate / Education / Non-profit",
-        summary:
-          "Design and deliver training programmes that genuinely help people grow. Blends facilitation, curriculum design, and coaching.",
-        whyIt: "Directly impactful; suits people who enjoy teaching and seeing others develop.",
-        considerations: "Can be under-resourced in some organisations.",
-        timeToEntry: "3–6 months",
-        salaryRange: "£38k–£65k",
-        nextSteps: "Look at CIPD qualifications, volunteer to run internal training",
-      },
-      {
         title: "Autistic Tour Guide",
         sector: "Tourism / Education / Culture",
         summary: "Details to come.",
