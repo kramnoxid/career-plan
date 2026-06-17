@@ -153,44 +153,19 @@ export default function Home() {
         textAlign: "center",
       }}>
         <div style={{ maxWidth: "640px", margin: "0 auto" }}>
-          <span style={{
-            display: "inline-block",
-            background: "#f1f5f9",
-            color: "#64748b",
-            fontSize: "11px",
-            fontWeight: 700,
-            letterSpacing: "0.12em",
-            textTransform: "uppercase",
-            padding: "8px 18px",
-            borderRadius: "999px",
-            marginBottom: "28px",
-          }}>
-            Career Planning
-          </span>
-
           <h1 style={{
-            fontSize: "clamp(42px, 7vw, 72px)",
+            fontSize: "clamp(52px, 9vw, 96px)",
             fontWeight: 900,
-            color: "#0f172a",
-            margin: "0 0 12px",
+            margin: 0,
             lineHeight: 1.05,
-            letterSpacing: "-2px",
+            letterSpacing: "-3px",
+            background: "linear-gradient(135deg, #064e3b 0%, #10b981 100%)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+            backgroundClip: "text",
           }}>
-            What comes<br />
-            <span style={{
-              background: "linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #7c3aed 100%)",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-              backgroundClip: "text",
-            }}>
-              next?
-            </span>
+            Career Design
           </h1>
-
-          <p style={{ fontSize: "18px", color: "#64748b", lineHeight: 1.7, margin: "24px 0 0" }}>
-            Three paths — from the familiar to the fully authentic.<br />
-            Each one is worth exploring.
-          </p>
         </div>
       </div>
 
