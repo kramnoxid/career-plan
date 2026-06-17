@@ -49,15 +49,6 @@ export const plans = {
         salaryRange: "TBC",
       },
       {
-        title: "Autistic Tour Guide",
-        sector: "Tourism / Education / Culture",
-        summary: "Details to come.",
-        whyIt: "Details to come.",
-        considerations: "Details to come.",
-        timeToEntry: "TBC",
-        salaryRange: "TBC",
-      },
-      {
         title: "Online Data Analyst (Telus / Peroptyx)",
         sector: "Remote / Tech / Evaluation",
         summary: "Details to come.",
@@ -96,6 +87,15 @@ export const plans = {
         timeToEntry: "6–12 months",
         salaryRange: "£35k–£65k employed; higher self-employed",
         nextSteps: "Research coaching certifications, connect with neurodiversity orgs",
+      },
+      {
+        title: "Autistic Tour Guide",
+        sector: "Tourism / Education / Culture",
+        summary: "Details to come.",
+        whyIt: "Details to come.",
+        considerations: "Details to come.",
+        timeToEntry: "TBC",
+        salaryRange: "TBC",
       },
       {
         title: "Solopreneur / Niche Business Owner",
