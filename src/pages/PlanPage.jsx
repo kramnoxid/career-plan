@@ -3,6 +3,20 @@ import { useParams, Link } from "react-router-dom";
 import { ArrowLeft, Clock, Banknote, Lightbulb, AlertTriangle, Briefcase, ChevronRight, ArrowRight } from "lucide-react";
 import { plans } from "../data";
 
+function BulletList({ text, color }) {
+  const items = text.split(". ").map(s => s.replace(/\.$/, "").trim()).filter(Boolean);
+  return (
+    <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: "8px" }}>
+      {items.map((item, i) => (
+        <li key={i} style={{ display: "flex", alignItems: "flex-start", gap: "8px", fontSize: "14px", color: "#374151", lineHeight: 1.6 }}>
+          <span style={{ marginTop: "6px", width: "6px", height: "6px", borderRadius: "50%", background: color, flexShrink: 0 }} />
+          {item}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
 const colorConfig = {
   blue: {
     gradientBar: "linear-gradient(135deg, #3b82f6, #2563eb)",
@@ -156,7 +170,7 @@ function OptionCard({ option, plan }) {
               </div>
               <span style={{ fontSize: "11px", fontWeight: 800, color: "#15803d", textTransform: "uppercase", letterSpacing: "0.1em" }}>Why it works</span>
             </div>
-            <p style={{ fontSize: "14px", color: "#374151", lineHeight: 1.7, margin: 0 }}>{option.whyIt}</p>
+            <BulletList text={option.whyIt} color="#16a34a" />
           </div>
 
           <div style={{
@@ -171,7 +185,7 @@ function OptionCard({ option, plan }) {
               </div>
               <span style={{ fontSize: "11px", fontWeight: 800, color: "#b45309", textTransform: "uppercase", letterSpacing: "0.1em" }}>Considerations</span>
             </div>
-            <p style={{ fontSize: "14px", color: "#374151", lineHeight: 1.7, margin: 0 }}>{option.considerations}</p>
+            <BulletList text={option.considerations} color="#d97706" />
           </div>
         </div>
       </div>
