@@ -33,16 +33,15 @@ export const plans = {
     options: [
       {
         title: "Vessel Traffic Services (VTS) Officer",
-        sector: "Spatial / Logistics / Emergency Management",
-        background: "Background to come.",
-        summary:
-          "A great opportunity has arisen to join Ports Victoria as a casual Vessel Traffic Services (VTS) Officer. The positions (x2) are located at the Port Operations Control Centre (Lorimer Street, Port Melbourne). You will utilise modern technology to monitor, communicate and coordinate the day-to-day movement of vessels, whilst also providing a support function in emergency response arrangements.",
-        whyIt: "Karlie said they are looking for peoplle with excellent spatail awaremenss and love to learn. Is in an interest area. Is a casual role.",
-        considerations: "How much stakehoolder management is there, and can seensory needs be met. Is the communication of vessels verbal / in person or is it mostly tech based.",
-        timeToEntry: "3–9 months",
+        sector: "Spatial / Marine / Emergency Management",
+        background: "Karlie said they are looking for peoplle with excellent spatial awaremenss and love to learn. Previously they have hired late career marine experts but have now realised the skill they need is spatial awareness and processing and that the marine content can be taught. Karlie said it sounds like he was describing her husband and the guy said does he want a job.",
+        summary: "VTS Officer - https://www.linkedin.com/posts/ports-victoria_vessel-traffic-services-officer-casual-activity-7099984837112983552-Fkhp",
+        whyIt: "Casual. Strong interest area with variety. Spatial skills highly relevant. Tasks and roles well defined. EM experience relevant. Transport experience adjacent (?). Is content focused, not relationship and influence dependent.",
+        considerations: "Unknown culture, could be a bit blokey / old school. No physical movement. Unknown ND inclusion profile. Not sure how much of 'communicate and coordinate the day-to-day movement of vessels' is verbal / in-person, ideally most will be through spatial portal. Family logistics if same emergencies as Karlie.",
+        timeToEntry: "Unknown",
         salaryRange: "Unknown",
-        nextSteps: "Ideally ask if I can shadow a shift to make sure it is a good fit - discuss with Karlie",
-        reflections: "Reflections to come.",
+        nextSteps: "Chat to Karlie to assess if it is a serious option. Contact Ports Vic guy to explore further. Ask if it would be possible to shadow for a shift to make sure.",
+        reflections: "2026-06-19: Can sensory needs be met, a bit worried about a control room being noisy, bright and unable to move my body. 2026-06-22: Need to decide on disclosure, gut says not initially but simply state preferred and effective ways of working (?). 2026-06-22: Feels quite good, worth taking next steps, strongest positive driver is interest in the content, flexing the spatial skills, and cool new stuff to learn.",
       },
       {
         title: "GIS / Geospatial Analyst",
