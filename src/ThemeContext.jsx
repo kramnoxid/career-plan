@@ -33,6 +33,11 @@ export const themes = {
     tagHover: "#1e293b",
     footerText: "#334155",
     pillBg: "#1e293b",
+    reflectionsCardBg: "#1a1a2e",
+    reflectionsCardBorder: "#312e81",
+    reflectionsIconBg: "#1e1b4b",
+    reflectionsIconColor: "#a5b4fc",
+    reflectionsText: "#a5b4fc",
   },
   light: {
     pageBg: "#f8fafc",
@@ -62,6 +67,11 @@ export const themes = {
     tagHover: "#f8fafc",
     footerText: "#cbd5e1",
     pillBg: "#f1f5f9",
+    reflectionsCardBg: "#eef2ff",
+    reflectionsCardBorder: "#c7d2fe",
+    reflectionsIconBg: "#e0e7ff",
+    reflectionsIconColor: "#4f46e5",
+    reflectionsText: "#3730a3",
   },
 };
 

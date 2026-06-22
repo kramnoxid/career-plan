@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { ArrowLeft, Clock, Banknote, Lightbulb, AlertTriangle, Briefcase, ChevronRight, ArrowRight, Sun, Moon } from "lucide-react";
+import { ArrowLeft, Clock, Banknote, Lightbulb, AlertTriangle, Briefcase, ChevronRight, ArrowRight, Sun, Moon, NotebookPen } from "lucide-react";
 import { plans } from "../data";
 import { useTheme } from "../ThemeContext";
 
@@ -180,6 +180,25 @@ function OptionCard({ option, plan }) {
             <BulletList text={option.considerations} color="#d97706" textColor={theme.textMuted} />
           </div>
         </div>
+
+        {/* Reflections and Conclusions */}
+        {option.reflections && (
+          <div style={{
+            marginTop: "16px",
+            background: theme.reflectionsCardBg,
+            border: `1px solid ${theme.reflectionsCardBorder}`,
+            borderRadius: "16px",
+            padding: "24px",
+          }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "14px" }}>
+              <div style={{ width: "32px", height: "32px", borderRadius: "50%", background: theme.reflectionsIconBg, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <NotebookPen size={15} style={{ color: theme.reflectionsIconColor }} />
+              </div>
+              <span style={{ fontSize: "11px", fontWeight: 800, color: theme.reflectionsText, textTransform: "uppercase", letterSpacing: "0.1em" }}>Reflections & Conclusions</span>
+            </div>
+            <BulletList text={option.reflections} color={theme.reflectionsIconColor} textColor={theme.textMuted} />
+          </div>
+        )}
       </div>
     </div>
   );

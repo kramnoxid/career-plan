@@ -16,6 +16,7 @@ export const plans = {
         considerations: "Details to come.",
         timeToEntry: "TBC",
         salaryRange: "TBC",
+        reflections: "Reflections to come.",
       },
     ],
   },
@@ -38,6 +39,7 @@ export const plans = {
         timeToEntry: "3–9 months",
         salaryRange: "Unknown",
         nextSteps: "Ideally ask if I can shadow a shift to make sure it is a good fit - discuss with Karlie",
+        reflections: "Reflections to come.",
       },
       {
         title: "GIS / Geospatial Analyst",
@@ -47,6 +49,7 @@ export const plans = {
         considerations: "Details to come.",
         timeToEntry: "TBC",
         salaryRange: "TBC",
+        reflections: "Reflections to come.",
       },
       {
         title: "Online Data Analyst (Telus / Peroptyx)",
@@ -56,6 +59,7 @@ export const plans = {
         considerations: "Details to come.",
         timeToEntry: "TBC",
         salaryRange: "TBC",
+        reflections: "Reflections to come.",
       },
     ],
   },
@@ -76,6 +80,7 @@ export const plans = {
         considerations: "Details to come.",
         timeToEntry: "TBC",
         salaryRange: "TBC",
+        reflections: "Reflections to come.",
       },
       {
         title: "Neurodiversity Advocate / Coach",
@@ -87,6 +92,7 @@ export const plans = {
         timeToEntry: "6–12 months",
         salaryRange: "£35k–£65k employed; higher self-employed",
         nextSteps: "Research coaching certifications, connect with neurodiversity orgs",
+        reflections: "Reflections to come.",
       },
       {
         title: "Autistic Tour Guide",
@@ -96,6 +102,7 @@ export const plans = {
         considerations: "Details to come.",
         timeToEntry: "TBC",
         salaryRange: "TBC",
+        reflections: "Reflections to come.",
       },
       {
         title: "Solopreneur / Niche Business Owner",
@@ -107,6 +114,7 @@ export const plans = {
         timeToEntry: "6–24 months",
         salaryRange: "Variable — loss to £200k+",
         nextSteps: "Validate idea with 10 people, build an audience before building a product",
+        reflections: "Reflections to come.",
       },
     ],
   },
