@@ -4,6 +4,39 @@ import { ArrowLeft, Clock, Banknote, Lightbulb, AlertTriangle, Briefcase, Chevro
 import { plans } from "../data";
 import { useTheme } from "../ThemeContext";
 
+function DescriptionText({ text, color, summaryText }) {
+  const urlPattern = /(https?:\/\/[^\s]+)/;
+  const match = text.match(urlPattern);
+  if (!match) {
+    return <p style={{ fontSize: "16px", color: summaryText, lineHeight: 1.8, margin: 0 }}>{text}</p>;
+  }
+  const url = match[1];
+  const label = text.replace(/ ?[-–] ?(https?:\/\/[^\s]+)/, "").trim();
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        display: "inline-flex",
+        alignItems: "center",
+        gap: "6px",
+        fontSize: "15px",
+        fontWeight: 600,
+        color: color,
+        textDecoration: "none",
+        borderBottom: `2px solid ${color}`,
+        paddingBottom: "1px",
+        transition: "opacity 0.15s",
+      }}
+      onMouseEnter={e => e.currentTarget.style.opacity = "0.75"}
+      onMouseLeave={e => e.currentTarget.style.opacity = "1"}
+    >
+      {label || url}
+    </a>
+  );
+}
+
 function BulletList({ text, color, textColor }) {
   const items = text.split(". ").map(s => s.replace(/\.$/, "").trim()).filter(Boolean);
   return (
@@ -196,9 +229,7 @@ function OptionCard({ option, plan }) {
           <h4 style={{ fontSize: "11px", fontWeight: 800, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: "0.1em", margin: "0 0 10px" }}>
             Description
           </h4>
-          <p style={{ fontSize: "16px", color: theme.summaryText, lineHeight: 1.8, margin: 0 }}>
-            {option.summary}
-          </p>
+          <DescriptionText text={option.summary} color={c.backColor} summaryText={theme.summaryText} />
         </div>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "16px" }}>
