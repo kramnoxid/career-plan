@@ -34,6 +34,16 @@ const colorConfig = {
     borderHover: "#8b5cf6",
     jobBullet: "#8b5cf6",
   },
+  amber: {
+    gradientBar: "linear-gradient(135deg, #f59e0b, #d97706)",
+    badgeBg: "#fef3c7",
+    badgeText: "#92400e",
+    taglineColor: "#d97706",
+    dotColor: "#fcd34d",
+    arrowColor: "#f59e0b",
+    borderHover: "#f59e0b",
+    jobBullet: "#f59e0b",
+  },
 };
 
 function ThemeToggle() {

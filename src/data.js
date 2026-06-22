@@ -103,8 +103,7 @@ export const plans = {
         title: "Neurodiversity Advocate / Coach",
         sector: "Education / Healthcare / Corporate",
         background: "Background to come.",
-        summary:
-          "Support neurodivergent individuals or organisations in understanding and embracing different ways of thinking and working.",
+        summary: "Support neurodivergent individuals or organisations in understanding and embracing different ways of thinking and working.",
         whyIt: "Highly meaningful; lived experience is a genuine asset rather than a liability.",
         considerations: "Requires certification/training; emotionally demanding at times.",
         timeToEntry: "6–12 months",
@@ -123,21 +122,18 @@ export const plans = {
         salaryRange: "TBC",
         reflections: "Reflections to come.",
       },
-      {
-        title: "Solopreneur / Niche Business Owner",
-        sector: "Self-directed",
-        background: "Background to come.",
-        summary:
-          "Build something small, intentional, and entirely yours. Could be a product, service, or community around a specific passion or skill.",
-        whyIt: "Radical autonomy; work shaped entirely around your strengths and values.",
-        considerations: "Highest risk, highest reward. Requires financial runway and resilience.",
-        timeToEntry: "6–24 months",
-        salaryRange: "Variable — loss to £200k+",
-        nextSteps: "Validate idea with 10 people, build an audience before building a product",
-        reflections: "Reflections to come.",
-      },
     ],
+  },
+  d: {
+    id: "d",
+    label: "Plan D",
+    title: "Self Employment",
+    tagline: "Maximum autonomy, built entirely around your strengths and interests.",
+    color: "amber",
+    accent: "#f59e0b",
+    description: "",
+    options: [],
   },
 };
 
-export const planOrder = ["a", "b", "c"];
+export const planOrder = ["a", "b", "c", "d"];

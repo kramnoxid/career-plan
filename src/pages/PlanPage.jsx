@@ -121,6 +121,20 @@ const colorConfig = {
     iconBgDark: "#2e1065",
     iconColor: "#7c3aed",
   },
+  amber: {
+    gradientHeader: "linear-gradient(135deg, #92400e 0%, #f59e0b 100%)",
+    badgeBg: "#fef3c7",
+    badgeText: "#92400e",
+    backColor: "#d97706",
+    tabActiveColor: "#92400e",
+    tabActiveBorder: "#fde68a",
+    tabHoverBg: "#fffbeb",
+    tabHoverBgDark: "#1c1003",
+    dotActive: "#f59e0b",
+    iconBg: "#fef3c7",
+    iconBgDark: "#1c1003",
+    iconColor: "#d97706",
+  },
 };
 
 function ThemeToggle() {
