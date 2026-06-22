@@ -132,7 +132,20 @@ export const plans = {
     color: "amber",
     accent: "#f59e0b",
     description: "",
-    options: [],
+    options: [
+      {
+        title: "App Development",
+        sector: "Tech",
+        background: "Primarily driven by building what I need for me combined with my learning by doing way of working. Could publish what I have done for others to use/purchase.",
+        summary: "Could publish what I have done for others to use/purchase. Could also provide a service of building personalised apps for others, or customising mine to suit. App ideas: Self care 'menu' with tracking and dashboard. Path 2 Flow. Situational script generator. 90 second stress reset. Self compassion practice. Masking check in - ND affirming catQ.",
+        whyIt: "Autonomy. Suits ways of working.",
+        considerations: "Sedentary. Uncertain. Associated costs.",
+        timeToEntry: "3–6 months",
+        salaryRange: "Unknown",
+        nextSteps: "Keep building them. Build the current ones to a level for publishing to small and safe group.",
+        reflections: "2026-06-22: Will do this irrespective of income generation.",
+      },
+    ],
   },
 };
 
