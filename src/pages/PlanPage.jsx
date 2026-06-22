@@ -18,6 +18,33 @@ function BulletList({ text, color, textColor }) {
   );
 }
 
+function DatedBulletList({ text, color, textColor, dateColor }) {
+  const datePattern = /^(\d{4}-\d{2}-\d{2}):\s*/;
+  const items = text.split(". ").map(s => s.replace(/\.$/, "").trim()).filter(Boolean);
+  return (
+    <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: "10px" }}>
+      {items.map((item, i) => {
+        const match = item.match(datePattern);
+        const date = match ? match[1] : null;
+        const content = match ? item.replace(datePattern, "") : item;
+        return (
+          <li key={i} style={{ display: "flex", alignItems: "flex-start", gap: "8px", fontSize: "14px", color: textColor, lineHeight: 1.6 }}>
+            <span style={{ marginTop: "6px", width: "6px", height: "6px", borderRadius: "50%", background: color, flexShrink: 0 }} />
+            <span>
+              {date && (
+                <span style={{ fontSize: "10px", fontWeight: 700, color: dateColor, marginRight: "8px", letterSpacing: "0.05em" }}>
+                  {date}
+                </span>
+              )}
+              {content}
+            </span>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
 const colorConfig = {
   blue: {
     gradientHeader: "linear-gradient(135deg, #1e40af 0%, #3b82f6 100%)",
@@ -175,7 +202,7 @@ function OptionCard({ option, plan }) {
               <div style={{ width: "32px", height: "32px", borderRadius: "50%", background: theme.amberCardBorder, display: "flex", alignItems: "center", justifyContent: "center" }}>
                 <AlertTriangle size={15} style={{ color: "#d97706" }} />
               </div>
-              <span style={{ fontSize: "11px", fontWeight: 800, color: theme.amberCardText, textTransform: "uppercase", letterSpacing: "0.1em" }}>Considerations</span>
+              <span style={{ fontSize: "11px", fontWeight: 800, color: theme.amberCardText, textTransform: "uppercase", letterSpacing: "0.1em" }}>Pitfalls</span>
             </div>
             <BulletList text={option.considerations} color="#d97706" textColor={theme.textMuted} />
           </div>
@@ -196,7 +223,7 @@ function OptionCard({ option, plan }) {
               </div>
               <span style={{ fontSize: "11px", fontWeight: 800, color: theme.reflectionsText, textTransform: "uppercase", letterSpacing: "0.1em" }}>Reflections & Conclusions</span>
             </div>
-            <BulletList text={option.reflections} color={theme.reflectionsIconColor} textColor={theme.textMuted} />
+            <DatedBulletList text={option.reflections} color={theme.reflectionsIconColor} textColor={theme.textMuted} dateColor={theme.reflectionsText} />
           </div>
         )}
       </div>
