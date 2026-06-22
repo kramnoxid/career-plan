@@ -182,9 +182,24 @@ function OptionCard({ option, plan }) {
 
       {/* Body */}
       <div style={{ padding: "36px 40px" }}>
-        <p style={{ fontSize: "16px", color: theme.summaryText, lineHeight: 1.8, marginBottom: "32px" }}>
-          {option.summary}
-        </p>
+        {option.background && (
+          <div style={{ marginBottom: "28px" }}>
+            <h4 style={{ fontSize: "11px", fontWeight: 800, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: "0.1em", margin: "0 0 10px" }}>
+              Background
+            </h4>
+            <p style={{ fontSize: "16px", color: theme.summaryText, lineHeight: 1.8, margin: 0 }}>
+              {option.background}
+            </p>
+          </div>
+        )}
+        <div style={{ marginBottom: "32px" }}>
+          <h4 style={{ fontSize: "11px", fontWeight: 800, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: "0.1em", margin: "0 0 10px" }}>
+            Description
+          </h4>
+          <p style={{ fontSize: "16px", color: theme.summaryText, lineHeight: 1.8, margin: 0 }}>
+            {option.summary}
+          </p>
+        </div>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "16px" }}>
           <div style={{ background: theme.greenCardBg, border: `1px solid ${theme.greenCardBorder}`, borderRadius: "16px", padding: "24px" }}>

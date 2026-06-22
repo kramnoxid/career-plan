@@ -11,6 +11,7 @@ export const plans = {
       {
         title: "Environmental Water Sampler",
         sector: "Environment / Science / Fieldwork",
+        background: "Background to come.",
         summary: "Details to come.",
         whyIt: "Details to come.",
         considerations: "Details to come.",
@@ -32,6 +33,7 @@ export const plans = {
       {
         title: "Vessel Traffic Services (VTS) Officer",
         sector: "Spatial / Logistics / Emergency Management",
+        background: "Background to come.",
         summary:
           "A great opportunity has arisen to join Ports Victoria as a casual Vessel Traffic Services (VTS) Officer. The positions (x2) are located at the Port Operations Control Centre (Lorimer Street, Port Melbourne). You will utilise modern technology to monitor, communicate and coordinate the day-to-day movement of vessels, whilst also providing a support function in emergency response arrangements.",
         whyIt: "Karlie said they are looking for peoplle with excellent spatail awaremenss and love to learn. Is in an interest area. Is a casual role.",
@@ -44,6 +46,7 @@ export const plans = {
       {
         title: "GIS / Geospatial Analyst",
         sector: "Spatial / Environment / Government",
+        background: "Background to come.",
         summary: "Details to come.",
         whyIt: "Details to come.",
         considerations: "Details to come.",
@@ -54,6 +57,7 @@ export const plans = {
       {
         title: "Online Data Analyst (Telus / Peroptyx)",
         sector: "Remote / Tech / Evaluation",
+        background: "Background to come.",
         summary: "Details to come.",
         whyIt: "Details to come.",
         considerations: "Details to come.",
@@ -75,6 +79,7 @@ export const plans = {
       {
         title: "Neurokindred Facilitator",
         sector: "Community / Neurodiversity / Education",
+        background: "Background to come.",
         summary: "Details to come.",
         whyIt: "Details to come.",
         considerations: "Details to come.",
@@ -85,6 +90,7 @@ export const plans = {
       {
         title: "Neurodiversity Advocate / Coach",
         sector: "Education / Healthcare / Corporate",
+        background: "Background to come.",
         summary:
           "Support neurodivergent individuals or organisations in understanding and embracing different ways of thinking and working.",
         whyIt: "Highly meaningful; lived experience is a genuine asset rather than a liability.",
@@ -97,6 +103,7 @@ export const plans = {
       {
         title: "Autistic Tour Guide",
         sector: "Tourism / Education / Culture",
+        background: "Background to come.",
         summary: "Details to come.",
         whyIt: "Details to come.",
         considerations: "Details to come.",
@@ -107,6 +114,7 @@ export const plans = {
       {
         title: "Solopreneur / Niche Business Owner",
         sector: "Self-directed",
+        background: "Background to come.",
         summary:
           "Build something small, intentional, and entirely yours. Could be a product, service, or community around a specific passion or skill.",
         whyIt: "Radical autonomy; work shaped entirely around your strengths and values.",
