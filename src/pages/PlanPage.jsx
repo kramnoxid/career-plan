@@ -244,6 +244,18 @@ function OptionCard({ option, plan }) {
             Description
           </h4>
           <DescriptionText text={option.summary} color={c.backColor} summaryText={theme.summaryText} />
+          {option.notes && (
+            <ul style={{ margin: "16px 0 0", padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: "6px" }}>
+              {option.notes.map((note, i) => (
+                i === 0
+                  ? <li key={i} style={{ fontSize: "11px", fontWeight: 800, color: theme.textSecondary, textTransform: "uppercase", letterSpacing: "0.1em", marginTop: "4px" }}>{note}</li>
+                  : <li key={i} style={{ display: "flex", alignItems: "flex-start", gap: "8px", fontSize: "15px", color: theme.summaryText, lineHeight: 1.6 }}>
+                      <span style={{ marginTop: "7px", width: "6px", height: "6px", borderRadius: "50%", background: c.backColor, flexShrink: 0, opacity: 0.6 }} />
+                      {note}
+                    </li>
+              ))}
+            </ul>
+          )}
         </div>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "16px" }}>
