@@ -20,6 +20,18 @@ export const plans = {
         nextSteps: "Decide to apply or not.",
         reflections: "2026-06-19: Driving and client management not great nervous system match. 2026-06-22: Politics, social, team dynamics of large org make me shudder.",
       },
+      {
+        title: "Data Logging Technician",
+        sector: "Water / Tech",
+        background: "From Seek",
+        summary: "Data Logging Technician - https://employmenthero.com/jobs/position/new-plumbing-solutions-data-logging-technician-qp09i/?_gl=1*1ws5ulg*_up*MQ..*_ga*MTYyMTYyMTE4My4xNzgyMTA1MTIz*_ga_ML8PXVWRJC*czE3ODIxMDUxMjIkbzEkZzAkdDE3ODIxMDUxMjIkajYwJGwxJGgxNzI1MTU2Mjk3*_ga_F84C9EYNZM*czE3ODIxMDUxMjQkbzEkZzAkdDE3ODIxMDUxMjQkajYwJGwwJGgw",
+        whyIt: "On the road, metro and regional. Solo with some autonomy. Outdoors. Variety. Local depot. Could do the tasks easily.",
+        considerations: "Unknown culture. Extended training period working with another technician. Unknown ND inclusion profile. Full time. Potentially too much 'Working closely with clients and operational teams'. Is there enough interest and/or meaning??",
+        timeToEntry: "Currently advertised — approaching 4 weeks",
+        salaryRange: "Entry level",
+        nextSteps: "ASAP decide to apply or not.",
+        reflections: "2026-06-22: Full time and lack of meaning and interest are big issues, feels like a job for a jobs sake that will take all of my spoons.",
+      },
     ],
   },
   b: {
