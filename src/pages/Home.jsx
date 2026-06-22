@@ -178,7 +178,7 @@ export default function Home() {
       <div style={{
         background: theme.heroBg,
         borderBottom: `1px solid ${theme.heroBorder}`,
-        padding: "64px 24px 56px",
+        padding: "20px 24px 16px",
         textAlign: "center",
         position: "relative",
       }}>
@@ -188,7 +188,7 @@ export default function Home() {
         </div>
 
         <h1 style={{
-          fontSize: "clamp(52px, 9vw, 96px)",
+          fontSize: "clamp(28px, 4vw, 42px)",
           fontWeight: 900,
           margin: 0,
           lineHeight: 1.05,
@@ -207,7 +207,7 @@ export default function Home() {
       <div style={{ maxWidth: "1100px", margin: "0 auto", padding: "56px 24px" }}>
         <div style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+          gridTemplateColumns: "repeat(2, 1fr)",
           gap: "28px",
         }}>
           {planOrder.map((key) => (

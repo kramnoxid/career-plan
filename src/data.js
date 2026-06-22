@@ -128,7 +128,7 @@ export const plans = {
     id: "d",
     label: "Plan D",
     title: "Self Employment",
-    tagline: "Maximum autonomy, built entirely around your strengths and interests.",
+    tagline: "High autonomy and control, values and interest based. Low certainty.",
     color: "amber",
     accent: "#f59e0b",
     description: "",

@@ -76,7 +76,7 @@ export const themes = {
 };
 
 export function ThemeProvider({ children }) {
-  const [mode, setMode] = useState(() => localStorage.getItem("theme") || "dark");
+  const [mode, setMode] = useState(() => localStorage.getItem("theme") || "light");
 
   useEffect(() => {
     localStorage.setItem("theme", mode);
