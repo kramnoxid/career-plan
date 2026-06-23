@@ -172,6 +172,7 @@ export const plans = {
           "Farm land assessment combining remote sensing and published data, Kanga as example",
           "Ag intervention effectiveness mapping through remote sensing data",
           "Cycling network gap assessment - melb sep lanes as example",
+          "Map for existing aligned business, foundpower.com.au as example",
         ],
         whyIt: "Autonomy. Suits ways of working. Meaningful.",
         considerations: "Sedentary. Uncertain. Associated costs.",
