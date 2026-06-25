@@ -1,6 +1,6 @@
 import { plans, planOrder } from "../data";
 import { Link } from "react-router-dom";
-import { ArrowRight, ChevronRight, Sun, Moon } from "lucide-react";
+import { ArrowRight, ChevronRight, Sun, Moon, ListChecks } from "lucide-react";
 import { useTheme } from "../ThemeContext";
 
 const colorConfig = {
@@ -182,8 +182,21 @@ export default function Home() {
         textAlign: "center",
         position: "relative",
       }}>
-        {/* Toggle top-right */}
-        <div style={{ position: "absolute", top: "20px", right: "24px" }}>
+        {/* Top-right controls */}
+        <div style={{ position: "absolute", top: "20px", right: "24px", display: "flex", gap: "10px", alignItems: "center" }}>
+          <Link
+            to="/next-steps"
+            style={{
+              display: "inline-flex", alignItems: "center", gap: "6px",
+              padding: "8px 16px", borderRadius: "999px",
+              border: `1px solid ${theme.cardBorder}`,
+              background: theme.cardBg, color: theme.textSecondary,
+              textDecoration: "none", fontSize: "13px", fontWeight: 600,
+            }}
+          >
+            <ListChecks size={15} />
+            Next Steps
+          </Link>
           <ThemeToggle />
         </div>
 

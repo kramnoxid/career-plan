@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { ArrowLeft, Clock, Banknote, Lightbulb, AlertTriangle, Briefcase, ChevronRight, ArrowRight, Sun, Moon, NotebookPen } from "lucide-react";
+import { ArrowLeft, Clock, Banknote, Lightbulb, AlertTriangle, Briefcase, ChevronRight, ArrowRight, Sun, Moon, NotebookPen, ListChecks } from "lucide-react";
 import { plans } from "../data";
 import { useTheme } from "../ThemeContext";
 
@@ -344,7 +344,22 @@ export default function PlanPage() {
             <ArrowLeft size={16} />
             All plans
           </Link>
-          <ThemeToggle />
+          <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
+            <Link
+              to="/next-steps"
+              style={{
+                display: "inline-flex", alignItems: "center", gap: "6px",
+                padding: "8px 16px", borderRadius: "999px",
+                border: `1px solid ${theme.cardBorder}`,
+                background: theme.cardBg, color: theme.textSecondary,
+                textDecoration: "none", fontSize: "13px", fontWeight: 600,
+              }}
+            >
+              <ListChecks size={15} />
+              Next Steps
+            </Link>
+            <ThemeToggle />
+          </div>
         </div>
       </div>
 
